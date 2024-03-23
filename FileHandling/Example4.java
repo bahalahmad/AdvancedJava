@@ -11,7 +11,7 @@ public class Example4 {
         //if file already exist it will reuse the same file and if it doesn't exist it will create a new file and write on it
        // FileWriter fw = new FileWriter("info.txt");
 
-        // if you dont want overriding to happen then you should do this
+        // if you don't want overriding to happen then you should do this
         // In this case it will not get overridden it will be appended
         FileWriter fw  = new FileWriter("info.txt",true);
 
