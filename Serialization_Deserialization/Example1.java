@@ -3,8 +3,8 @@ package Serialization_Deserialization;
 import java.io.*;
 
 class Dog implements  Serializable{
-    int i=10;
-    int j = 20;
+    int i =10;
+    int j =20;
 
     Dog(){
         System.out.println("Dog constructor called ");
@@ -22,7 +22,7 @@ public class Example1 {
 
         oos.writeObject(d);
 
-        System.out.println("Serialization ended ");
+        System.out.println(" Serialization ended ");
 
 
 
@@ -38,6 +38,10 @@ public class Example1 {
 
         System.out.println(dd.i);
         System.out.println(dd.j);
+
+
+
+
 
 
     }

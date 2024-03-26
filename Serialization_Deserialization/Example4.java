@@ -11,7 +11,6 @@ class Account implements Serializable {
 
         String epwd = 123 + password;
         oos.writeObject(epwd);
-
     }
 
     private  void readObject(ObjectInputStream ois) throws Exception{
